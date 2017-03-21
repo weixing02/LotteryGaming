@@ -1,0 +1,194 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'MicrosoftYaHei'; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.header {
+  z-index: 1000;
+  letter-spacing: 1px;
+  position: fixed;
+  height: 115px;
+  width: 100%;
+  background: url("../img/header.png");
+  background-size: contain; }
+
+.line {
+  height: 17px;
+  border-left: 1px solid rgba(255, 255, 255, 0.24);
+  border-right: 1px solid rgba(0, 0, 0, 0.2); }
+
+.navbar_top {
+  padding: 10px 0px 13px;
+  color: #bdbdbd;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24); }
+  .navbar_top span {
+    text-align: center;
+    padding: 0 10px; }
+  .navbar_top .time {
+    font-family: sans-serif; }
+  .navbar_top a {
+    text-decoration: none;
+    color: #bdbdbd; }
+  .navbar_top .pull-right a {
+    color: #f7e6b0; }
+    .navbar_top .pull-right a:hover {
+      color: #ff6f70; }
+  .navbar_top .pull-right i {
+    color: #f7e6b0; }
+
+.navbar_bottom {
+  height: 69px; }
+  .navbar_bottom .logo {
+    display: inline-block;
+    height: inherit; }
+  .navbar_bottom .nav_items {
+    display: inline-block;
+    height: inherit;
+    overflow: hidden; }
+    .navbar_bottom .nav_items i {
+      float: left;
+      line-height: 69px;
+      margin-top: 25px; }
+    .navbar_bottom .nav_items ul {
+      height: inherit;
+      overflow: hidden; }
+    .navbar_bottom .nav_items li {
+      height: inherit;
+      display: inline-block;
+      float: left;
+      padding: 0 20px;
+      line-height: 69px; }
+      .navbar_bottom .nav_items li:hover {
+        background: linear-gradient(#c74546, #a92c2d);
+        border-top: 1px solid #ff8f93;
+        border-bottom: 2px solid #821216; }
+      .navbar_bottom .nav_items li a {
+        color: #fff;
+        text-decoration: none; }
+
+.scroll_box {
+  box-shadow: 0px 5px 15px #888888; }
+
+.display_box {
+  overflow: hidden;
+  margin-top: 30px;
+  padding: 10px 0 30px 0;
+  background-color: #dddddd; }
+
+.display_item {
+  padding: 10px;
+  height: 250px; }
+
+.display_content {
+  width: 100%;
+  height: inherit;
+  background: black;
+  box-shadow: 0px 5px 10px #888888;
+  border-radius: 10px;
+  margin-bottom: 20px; }
+
+footer {
+  padding: 40px 40px;
+  background-color: #232526;
+  width: 100%;
+  height: 420px;
+  font-weight: 200; }
+  footer ul, footer li {
+    overflow: hidden;
+    list-style: none; }
+  footer .ul2 li {
+    height: 40px; }
+  footer a {
+    color: #717171;
+    transition: 0.2s color linear; }
+    footer a:hover {
+      color: #fff; }
+  footer .li1 {
+    float: left; }
+  footer h5 {
+    height: 20px;
+    color: #FFF; }
+  footer .li_contact i {
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 auto; }
+  footer .li_contact a {
+    display: block;
+    width: 100%;
+    text-align: center; }
+  footer .li_contact h5 {
+    text-align: center; }
+  footer .li_cooperation h5 {
+    text-align: center; }
+  footer .call_box {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px 18px;
+    background-color: #545556;
+    border-radius: 5px;
+    border: 2px solid #545556;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 10px;
+    text-align: center;
+    transition: 0.2s all linear; }
+    footer .call_box:hover {
+      border: 2px solid #c74546;
+      background-color: #c74546; }
+    footer .call_box i {
+      font-size: 18px; }
+  footer .call_box2 {
+    background-color: transparent; }
+    footer .call_box2 i {
+      font-size: 18px;
+      height: 30px;
+      color: #fff; }
+    footer .call_box2 p {
+      font-size: 16px;
+      color: #666; }
+
+.inline {
+  display: inline-block; }
+
+.count_box {
+  color: #fff;
+  text-align: left; }
+  .count_box p, .count_box div {
+    display: inline-block; }
+
+.count {
+  overflow: hidden;
+  display: inline-block; }
+  .count li {
+    width: 20px;
+    height: 28px;
+    text-align: center;
+    color: #232526;
+    line-height: 30px;
+    padding-bottom: 0;
+    font-family: futura_mdcn_btmedium;
+    font-size: 20px;
+    margin-right: 4px;
+    display: inline-block;
+    background-color: #ddd; }
+
+.fc {
+  padding-top: 15px;
+  height: 120px;
+  margin-top: 20px;
+  border-top: 1px dotted #666;
+  color: #717171;
+  text-align: center; }
+
+/*# sourceMappingURL=master.css.map */
