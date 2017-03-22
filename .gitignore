@@ -1,5 +1,8 @@
 #ignore .DStore
-.DS_Store
-
+*.DS_Store
+*.sass-cache
 #ignore node_modules
 /static/node_modules/
+
+#ignore bower_components
+/static/app/webroot/bower_components/
