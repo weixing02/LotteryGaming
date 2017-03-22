@@ -1,0 +1,5 @@
+#ignore .DStore
+.DS_Store
+
+#ignore node_modules
+./static/node_modules
