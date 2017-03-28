@@ -2,11 +2,15 @@ module.exports = {
   devtool: 'eval-source-map',
   entry:  __dirname + "/app/index.js",//已多次提及的唯一入口文件
   output: {
-    path: __dirname + "/app/public",//打包后的文件存放的地方
+    path: __dirname + "/app/public/",//打包后的文件存放的地方
     filename: "bundle.js"//打包后输出文件的文件名
   },
   module: {//在配置文件里添加JSON loader
     loaders: [
+       {
+         test: require.resolve("jquery"),
+         loader: "expose-loader?$!expose-loader?jQuery"
+       },
       {
         test: /\.json$/,
         loader: "json-loader"
@@ -29,7 +33,7 @@ module.exports = {
       },
       {
       test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,
-      loader: 'file-loader'
+      loader: 'file-loader?name=fonts/[name].[ext]'
       },
 
     ]

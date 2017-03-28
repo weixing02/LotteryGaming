@@ -1,10 +1,10 @@
 import "./css/master.css";
-import "./css/bootstrap.min.css";
 import "./css/font-awesome.min.css";
 import "angular";
 import "angular-route";
-import "./js/jquery.min.js";
-import "./js/bootstrap.min.js";
+import "jquery";
+import "bootstrap";
+import "./css/bootstrap.min.css";
 
 
 
