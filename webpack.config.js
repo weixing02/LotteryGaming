@@ -28,6 +28,10 @@ module.exports = {
         loader: 'style-loader!css-loader'//添加对样式表的处理
       },
       {
+        test: /\.scss$/,
+        loader: "sass-loader"
+      },
+      {
         test: /\.(jpg|png)$/,
         loader: "url-loader?limit=8192"
       },
@@ -39,7 +43,7 @@ module.exports = {
     ]
   },
   devServer: {
-   contentBase: "./public",//本地服务器所加载的页面所在的目录
+   contentBase: "./app/",//本地服务器所加载的页面所在的目录
    colors: true,//终端中输出结果为彩色
    historyApiFallback: true,//不跳转
    inline: true//实时刷新

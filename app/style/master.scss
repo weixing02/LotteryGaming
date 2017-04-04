@@ -72,6 +72,7 @@ $white: #fff;
     display: inline-block;
     height: inherit;
     overflow: hidden;
+    margin-left: 100px;
     i{
       float: left;
       line-height: 69px;
@@ -80,6 +81,7 @@ $white: #fff;
     ul{
       height: inherit;
       overflow: hidden;
+
     }
     li{
       height: inherit;
@@ -107,6 +109,18 @@ $white: #fff;
   margin-top: 30px;
   padding: 10px 0 30px 0;
   background-color: #dddddd;
+}
+.row1{
+  width: inherit;
+  padding: 30px 10px;
+  height: auto;
+  overflow: hidden;
+}
+.row2{
+  overflow: hidden;
+  width: inherit;
+  height: auto;
+  padding: 30px 10px;
 }
 .display_item{
   padding: 10px;

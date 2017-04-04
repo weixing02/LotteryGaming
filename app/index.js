@@ -1,11 +1,11 @@
-import "./css/master.css";
+
 import "./css/font-awesome.min.css";
 import "angular";
 import "angular-route";
 import "jquery";
 import "bootstrap";
 import "./css/bootstrap.min.css";
-
+import "./css/master.css";
 
 
 var app = angular.module("myApp",['ngRoute']);
